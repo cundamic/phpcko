@@ -1,0 +1,27 @@
+{
+  "name": "phpcko",
+  "homepage": "https://github.com/cundamic/phpcko",
+  "authors": [
+    "Juraj Pecháč"
+  ],
+  "description": "Programovanie s yetom PHP",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "PHP"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "kniznice",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}
