@@ -1,18 +1,69 @@
 <!DOCTYPE html>
-<html lang="sk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>PHP s Yetim</title>
-    <link rel="stylesheet" href="css/style.css">   
-</head>
-<body>
- <h1>Programovanie s Yetim</h1>
- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia est tempore consectetur, illo a laudantium aperiam vero sequi mollitia, delectus magni quas, modi assumenda. Impedit cupiditate amet quaerat blanditiis voluptatibus!</p>
- <p>Asperiores odio consequuntur rerum porro laboriosam sapiente perferendis quos. Quisquam molestias cumque blanditiis illo ea sequi! Voluptates sequi quae fuga dolore in qui quam laboriosam expedita, obcaecati doloremque tempore magni!</p>
- <p>Asperiores sed rerum aperiam incidunt iste cumque commodi error nemo omnis consequatur excepturi, minima itaque architecto quis temporibus repellat adipisci ipsam. Labore ab aliquam distinctio tenetur, delectus deleniti sit commodi.</p>
- <p>Dolores magnam autem, nesciunt, sit aperiam corporis nostrum neque, vero velit itaque laborum provident cum illum! Aperiam, quas dignissimos nesciunt, fugiat ipsum cum rem nihil neque doloremque earum dolorum a?</p>
- <script src="js/app.js"></script>   
-</body>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="kniznice/bootstrap/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid bg-primary text-white">
+      <div class="container">
+        <h1 class="display-3">Programovanie s Yetim</h1>                        
+      </div>
+    </div>
+    <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+        <img src="obrazky/duponoha.png" style="width:100%"  alt="">
+          <div class="card-block">
+            <h3 class="card-title">Okar Duponoha</h3>
+            <p class="card-text">
+Aj na obrov je Okar Duponoha príliš veľký a príliš pomalý. V exile, do ktorého sa dostal po tom, čo spôsobil príliš veľa náhodných škôd, túži po seberovnom priateľovi.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-block">
+            <h3 class="card-title text-center">Práca s premennými</h3>
+            <form action="">
+            <div class="form-group">
+              <label for="vstup1">vstup 1</label>
+              <input type="text" class="form-control" name="" id="vstup1" aria-describedby="helpId" placeholder="">
+              
+            </div>
+            <div class="form-group">
+              <label for="vstup2">vstup 2</label>
+              <input type="text" class="form-control" name="" id="vstup2" aria-describedby="helpId" placeholder="">
+            
+            </div>
+            <button type="sumbit" name="" id="" class="btn btn-info btn-lg btn-block">Odoslať</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" >
+        <img src="obrazky/kryptak.png" style="width:100%" alt="">
+          <div class="card-block">
+          
+            <h3 class="card-title">Nalfar Krypták</h3>
+            <p class="card-text">
+Tmavý elf, ktorý totálne obdivuje kostry. Nalfar Krypták prirovnáva nekromanta ku psovi. "Len sa pozri na jeho očné jamky!"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="kniznice/jquery/dist/jquery.min.js"></script>
+    <script src="kniznice/tether/dist/js/tether.min.js"></script>
+    <script src="kniznice/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+  </body>
 </html>
