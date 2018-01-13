@@ -1,18 +1,65 @@
 <!DOCTYPE html>
-<html lang="sk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>PHP s Yetim</title>
-    <link rel="stylesheet" href="css/style.css">   
-</head>
-<body>
- <h1>Programovanie s Yetim</h1>
- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia est tempore consectetur, illo a laudantium aperiam vero sequi mollitia, delectus magni quas, modi assumenda. Impedit cupiditate amet quaerat blanditiis voluptatibus!</p>
- <p>Asperiores odio consequuntur rerum porro laboriosam sapiente perferendis quos. Quisquam molestias cumque blanditiis illo ea sequi! Voluptates sequi quae fuga dolore in qui quam laboriosam expedita, obcaecati doloremque tempore magni!</p>
- <p>Asperiores sed rerum aperiam incidunt iste cumque commodi error nemo omnis consequatur excepturi, minima itaque architecto quis temporibus repellat adipisci ipsam. Labore ab aliquam distinctio tenetur, delectus deleniti sit commodi.</p>
- <p>Dolores magnam autem, nesciunt, sit aperiam corporis nostrum neque, vero velit itaque laborum provident cum illum! Aperiam, quas dignissimos nesciunt, fugiat ipsum cum rem nihil neque doloremque earum dolorum a?</p>
- <script src="js/app.js"></script>   
-</body>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="kniznice/bootstrap/dist/css/bootstrap.min.css">
+    
+  </head>
+  <block>
+  <div class="jumbotron jumbotron-fluid bg-info text-white text-center">
+  <div class="container">
+    <h1 class="display-3">Programovanie s Yetim</h1>    
+  </div>
+</div>
+<div class="container">
+<div class="card-deck">
+  <div class="card">
+    <div class="card-block">
+      <h4 class="card-title text-center">Ťahák pre Emmet</h4>
+      <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="//www.youtube.com/embed/8g1X9T7CtD8" allowfullscreen=""></iframe>
+</div>
+
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-block">
+      <h4 class="card-title text-center">Premenné v PHP</h4>
+      <form action="">
+      <form>
+  <div class="form-group">
+    <label for="formGroupExampleInput">Premenná č.1</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Hodnota prvej premennej">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput2">Premenná č.2</label>
+    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Hodnota druhej premennej">
+  </div>
+  <button type="submit" class="btn btn-info btn-block">Submit</button>
+</form>
+
+      </form>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-block">
+      <h4 class="card-title text-center">Odznak a pilulka</h4>
+      <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="//www.youtube.com/embed/yyQDtHGSm-o" allowfullscreen=""></iframe>
+</div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="kniznice/jquery/dist/jquery.min.js"></script>
+    <script src="kniznice/tether/dist/js/tether.min.js"></script>
+    <script src="kniznice/bootstrap/dist/js/bootstrap.min.js"></script>
+  </block>
 </html>
